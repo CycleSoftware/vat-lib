@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 class SETest extends TestCase
 {
-    public function testFormatShort(): void
+    public function testFormatShort()
     {
         $formatter = new SE();
         $formatted = $formatter->formatShort('SE556819238801');
@@ -30,7 +30,7 @@ class SETest extends TestCase
         $this->assertEquals('', $formatted);
     }
 
-    public function testFormatShortWithInvalidChecksum(): void
+    public function testFormatShortWithInvalidChecksum()
     {
         $formatter = new SE();
         $formatted = $formatter->formatShort('SE556819248801');
