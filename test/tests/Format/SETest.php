@@ -2,8 +2,8 @@
 
 namespace VATLib\Test\Format;
 
-use VATLib\Format\SE;
 use PHPUnit\Framework\TestCase;
+use VATLib\Format\SE;
 
 class SETest extends TestCase
 {
